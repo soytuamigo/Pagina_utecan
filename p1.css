@@ -1,0 +1,73 @@
+body {/*es el contenedor principal de un documento HTML y contiene todo el contenido visible de la página.*/
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fotosute/articulos-para-agricultura.jpg);/* este es la imagen que 
+    utilice en el fondo de la pagina*/
+    background-size: cover;
+}
+.logo{
+    position: right;
+    margin-right: 200px; /* Mueve la imagen 20px a la derecha */
+}
+
+.header {/* el estilo del encabezado de la pagina */
+    background-color:#9b2143;
+    color: white;
+    padding: 20px 30px;
+    text-align: left;
+    font-size: 25px; /* tamaño de letra en píxeles */
+}
+
+.header .container {/*centra el contenido de un elemento con una clase de containerque está 
+    dentro de un elemento con una clase de header, tanto horizontal como verticalmente.*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header nav a {/*se refiere a todos los enlaces en este caso las letras son blancas y
+     sin niguna decoracion para que no aparezca el subrayado y las letras en azul*/
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+
+h2{/* este es para darle estilo y color alas */
+    color: rgb(240, 92, 6);
+}
+li{
+    color: black;/* letra que estan en la caja y esta en color negro*/
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+.caja-contenedora {/* es la encargada de dar los estilos a la caja y la posicion de 2 columnas */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.caja {
+    background: rgba(5, 148, 192, 0.363);/* es la encargada de dar estilo a la caja como tal su forma y apariencia*/
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 35%;
+    min-width: 300px;
+}
+
+/* pie de la pagina*/
+footer {
+    background-color:  #9b2143;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    font-size: 20px; /* tamaño de letra en píxeles */
+}
+
+
